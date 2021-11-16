@@ -1,5 +1,5 @@
 import os
-from models.review_classifier import ReviewClassifier
+from models.review_model import ReviewModel
 from utils.data_loader import load_data
 
 TRAIN_DATA_PATH = os.path.join('datasets', 'train.csv')
@@ -10,7 +10,6 @@ if __name__ == '__main__':
     x_test, y_test = load_data(TEST_DATA_PATH)
 
     # Should add saving/loading and conditionally train or test, but this works for now
-    model = ReviewClassifier()
+    model = ReviewModel()
     model.train(x_train, y_train)
-    accuracy = model.test(x_test, y_test)
-    print(f'Accuracy: {accuracy * 100}%')
+    model.test(x_test, y_test)
