@@ -6,5 +6,9 @@ Then, download `dev.csv` and `train.csv` from [this link](https://worksheets.cod
 # ReviewPolice
 Project Work CSCE 676
 
+# Dataset
+https://drive.google.com/drive/folders/1ui19l2jNrlzq_y0ThoNn45ATmeE0syc4?usp=sharing
+
 Please refer
 https://docs.google.com/document/d/1waEvHn8Hugrjt9YiOtanJg2K6gXTZxqc-_Ocs_AMvaM/edit?usp=sharing
+
